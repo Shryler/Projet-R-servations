@@ -1,0 +1,188 @@
+.page-holder {
+  min-height: 60vh;
+}
+
+.zindex {
+  z-index: 1;
+}
+
+.img-logo {
+  width: 45px;
+}
+
+.bg-cover {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(0, 14, 21, 0.9) 20%, rgba(255, 254, 254, 0) 100%), url(../img/bg.jpeg) center;
+}
+
+.bg-cover-house1 {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(0, 14, 21, 0.9) 20%, rgba(255, 254, 254, 0) 100%), url(../img/1.webp) center;
+}
+
+.bg-cover-house2 {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(0, 14, 21, 0.9) 20%, rgba(255, 254, 254, 0) 100%), url(../img/1b.webp) center;
+}
+
+.degrade-horizontal {
+  background: linear-gradient(to right, blue, pink);
+}
+
+.vheight-50 {
+  margin-top: 50vh;
+}
+
+.mHimg {
+  width: 100%;
+  height: 280px !important;
+}
+
+.pCustom {
+  padding: 5px;
+}
+
+.gapCustom {
+  gap: 5px;
+
+}
+
+img {
+  object-fit: cover;
+}
+
+.rounded-first {
+  object-fit: contain;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.rounded-second {
+  object-fit: contain;
+  border-top-right-radius: 30px;
+}
+
+.rounded-third {
+  object-fit: contain;
+  border-bottom-right-radius: 30px;
+}
+
+.input-group-text {
+  width: 45px;
+  display: block;
+  border-radius: 0;
+}
+
+.error {
+  border: 1px solid rgb(175, 0, 0);
+  transition: 0.3s;
+}
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+.date-container {
+  position: relative;
+  float: left;
+}
+
+.date-icon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .mH {
+    margin-bottom: 150px;
+  }
+}
+
+.container.lock-plugin .calendar>.days-grid>.day.locked:not(.start):not(.end) {
+  background-color: #9c9fa3cf !important;
+  background-image: none !important;
+  border-radius: 5px;
+}
+
+.container.lock-plugin .calendar>.days-grid>.day.locked {
+  color: rgb(255, 255, 255);
+}
+
+.calendar>.days-grid>.day.today {
+  -webkit-box-shadow: 0px 0px 0px 1px #000000;
+  box-shadow: 0px 0px 0px 1px #000000;
+  color: rgb(0, 0, 0) !important;
+  font-weight: semibold;
+  border-radius: 5px;
+}
+
+.calendar>.daynames-row,
+.calendar>.days-grid {
+  row-gap: 5px !important;
+  column-gap: 5px !important;
+}
+
+.container.range-plugin .calendar>.days-grid>.day.end,
+.container.range-plugin .calendar>.days-grid>.day.start {
+  background-color: #0d6dfd !important;
+}
+
+.container.range-plugin .calendar>.days-grid>.day.start:after {
+  border-left: 8px solid #0d6dfd !important;
+  z-index: 1;
+  right:-17px !important;
+}
+
+.container.range-plugin .calendar>.days-grid>.day.end:after {
+  border-right: 8px solid #0d6dfd !important;
+  z-index: 1;
+  left:-17px !important;
+}
+
+.calendar>.days-grid>.day:hover {
+  border: 1px solid  #0d6dfd !important;
+  color:rgba(0, 0, 0, 0.705) !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #CED4DA;
+  box-shadow: 0px 0px 0px 1px #CED4DA;
+}
+
+.container.range-plugin .calendar>.days-grid>.day.start.flipped:after {
+  border-left-color: #0d6dfd !important;
+  border-right-color: #0d6dfd !important;
+  z-index: 1;
+}
+.container.range-plugin .calendar>.days-grid>.day.in-range {
+  background-color: #ced4dac6 !important;
+}
+.container.range-plugin .calendar>.days-grid>.day.end.flipped:after {
+  z-index: 1;
+  border-left-color: #0d6dfd !important;
+  border-right-color: #0d6dfd !important;
+}
+
+.container>footer .footer-buttons>button.apply-button:disabled {
+  background-color:#ced4dac6 !important;
+  border-color: #ffffff66 !important;
+  color: #ffffff66 !important;
+}
+
+.container>footer .footer-buttons>button.apply-button {
+  background-color:#0d6dfd !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
